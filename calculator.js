@@ -5,7 +5,7 @@ function d(val) {
 	document.getElementById("d").value = val;
 }
 
-//Type number and operators
+//type numbers and operators
 function v(val) {
 	document.getElementById("d").value += val;
 }
@@ -13,10 +13,9 @@ function v(val) {
 //Evaluate the equation
 function e() {
 	try {
-		d(eval(document.getElementById("d").value)):
+		d(eval(document.getElementById("d").value));
 	}
-	catch(err) {
+	catch(err) { 
 		d("Error");
 	}
 }
-	
